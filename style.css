@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    scroll-behavior: smooth;
+}
+
+html {
+    background-color: #2A0F6A;
+}
+
+#background {
+    /* display: flex; */
+    width: 100%;
+    height: 100vh;
+
+}
+
+.vanta-canvas {
+    border-radius: 30px;
+}
+
+.maindiv {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: arial;
+    border-radius: 35px;
+}
+
+.first {
+    font-size: 3em;
+    color: white;
+}
+
+.second {
+    width: 40vw;
+    color: white;
+}
+
+.arrow {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    top: 80%;
+    font-size: 2em;
+    flex-wrap: wrap;
+    line-height: 50px;
+
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-4;
+    animation-timing-function: ease;
+    scroll-behavior: smooth;
+
+}
+
+.moreabout {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    color: white;
+}
+
+.moreabout p {
+    font-size: 0.6em;
+}
+
+.another {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: #1f1f24;
+    align-items: center;
+    border-radius: 30px;
+}
+
+/* TUTAJ DWA DIVY NA PROJEKTY */
+.projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects div {
+    width: 300px;
+}
+
+ h2 {
+    margin-top: 70px;
+    color: white;
+    font-size: 2em;
+    font-family: arial;
+}
+
+.entry {
+    width: 50vw;
+}
+
+.entry p {
+    color: white;
+    font-size: 1.4em;
+    line-height: 30px;
+}
+
+.all {
+    width: calc(90vw + 50px);
+    margin: 0 auto;
+
+}
+
+.break {
+    height: 35px;
+    width: 90vw;
+}
+
+.Contact {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    width: 70%;
+
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    width: 90vw;
+    background-color: rgb(35, 21, 60);
+    border-radius: 30px;
+    margin: 70px auto 0 auto;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects p {
+    color: white;
+    font-size: 2em;
+    margin-top: 5%;
+    width: 100%;
+    align-items: center;
+
+}
+
+.repos {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+.repos div{
+    margin-bottom: 10%;
+}
+
+.reposparagraph{
+    font-size: 2em;
+    color: rgb(144,42,94);
+
+}
+
+
+
+
+@keyframes bounce-4 {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    20% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+
+    30% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+
+    50% {
+        transform: scale(.9, 1.1) translateY(-20px);
+    }
+
+    60% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    65% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    80% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+}
